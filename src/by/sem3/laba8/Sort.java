@@ -1,7 +1,6 @@
 package by.sem3.laba8;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 import static by.sem3.laba8.Main.array;
 import static by.sem3.laba8.Main.typeOfSort;

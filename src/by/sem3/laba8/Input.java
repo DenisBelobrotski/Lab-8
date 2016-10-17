@@ -10,7 +10,7 @@ class Input {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of array:");
         size = scanner.nextInt();
-        if(size < 1 || size > 100000){
+        if (size < 1 || size > 100000) {
             throw new InputMismatchException();
         }
         return size;

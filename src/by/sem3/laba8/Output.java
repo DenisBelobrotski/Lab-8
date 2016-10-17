@@ -4,7 +4,7 @@ class Output {
     public void outputArray(Integer[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
-            if(i % 40 == 0){
+            if (i % 40 == 0) {
                 System.out.println();
             }
         }
